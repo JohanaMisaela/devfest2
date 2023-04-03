@@ -1,0 +1,58 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.mycard:hover {
+    box-shadow: 8px 8px 16px -3px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 8px 8px 16px -3px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 8px 8px 16px -3px rgba(0, 0, 0, 0.53);
+    transition: 0.5s;
+    border: none;
+    /* cursor: pointer; */
+}a #photo{
+    width: 40px;
+    height: auto;
+}
+#photo{
+
+    border-radius: 40px;
+    background-color: grey;
+}
+.mycard {
+    min-width: 900px;
+    max-width: 900px;
+    /* border: none; */
+    transition: 0.6s;
+}
+
+hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name a {
+    text-decoration: none;
+}
+
+.name {
+    /* padding-left: 25px; */
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.comment {
+    transition: .4s;
+}
+
+.comment:hover {
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 17px;
+    transition: .5s;
+}
+
+@media (min-width: 500px) {
+    .mycard {}
+}

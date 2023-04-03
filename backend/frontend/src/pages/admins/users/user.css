@@ -1,0 +1,18 @@
+.img-icon{
+    width: 55px;
+    height: auto;
+}
+
+.badges{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+.nbr{
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+}
+img{
+    width: 20%;
+}
